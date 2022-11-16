@@ -4,6 +4,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { AiOutlineClose, AiOutlineMenu, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn, FaGithub, FaWhatsapp } from "react-icons/fa";
+import navLogo from "/../public/logo.png";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -53,7 +54,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href="/">
-          <Image src="/../public/logo.png" alt="x" width="75" height="10" />
+          <Image src={navLogo} alt="x" width="75" height="10" />
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
@@ -102,7 +103,7 @@ const Navbar = () => {
             <div className="flex w-full items-center justify-between">
               <Link href="/">
                 <Image
-                  src="/../public/logo.png"
+                  src={navLogo}
                   alt="x"
                   width="75"
                   height="30"

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import manageImg from "../public/projects/lab_manage.jpeg";
+import deepLearnImg from "../public/projects/deep_learning.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -15,23 +16,25 @@ const Projects = () => {
           <ProjectItem
             title="Management Lab"
             backgroundImg={manageImg}
-            projectUrl="/managelab"
+            projectUrl="/manage"
+            stack="Codeigniter 4"
+          />
+          <ProjectItem
+            title="Tomatoes Disease Prediction"
+            backgroundImg={deepLearnImg}
+            projectUrl="/deeplearn"
+            stack="Tensorflow"
+          />
+          {/* <ProjectItem
+            title="Management Lab"
+            backgroundImg={manageImg}
+            projectUrl="/manage"
           />
           <ProjectItem
             title="Management Lab"
             backgroundImg={manageImg}
-            projectUrl="/managelab"
-          />
-          <ProjectItem
-            title="Management Lab"
-            backgroundImg={manageImg}
-            projectUrl="/managelab"
-          />
-          <ProjectItem
-            title="Management Lab"
-            backgroundImg={manageImg}
-            projectUrl="/managelab"
-          />
+            projectUrl="/manage"
+          /> */}
         </div>
       </div>
     </div>

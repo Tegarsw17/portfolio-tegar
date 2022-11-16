@@ -1,9 +1,9 @@
 import Image from "next/image";
 import javascript from "../public/skills/javascript.png";
-import python from "/../public/skills/python.png";
-import php from "/../public/skills/php.png";
-import mysql from "/../public/skills/mysql.png";
-import github from "/../public/skills/github1.png";
+import python from "../public/skills/python.png";
+import php from "../public/skills/php.png";
+import mysql from "../public/skills/mysql.png";
+import github from "../public/skills/github1.png";
 
 const Skills = () => {
   return (

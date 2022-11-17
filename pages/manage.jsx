@@ -27,14 +27,10 @@ const manage = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and is hosted on Firebase. Users
-            are able to search properties based on an Address, City, or ZIP code
-            to retrieve a list of active properties currently for sale. You will
-            be able to view property information as well as the specific
-            location of the property integrated with the Google Maps API. User
+            This app was built using Codeigniter. Users are able to search free
+            lab for use. You will be able to book lab, adn find lab. User
             authentication is available so you can signup and signin to your
-            account with an email address in order to save your favorite
-            properties. This is made possible with Zillow API.
+            account with an email address in order to book lab.
           </p>
           <Link
             href="https://github.com/labUNSid/lab-management"

@@ -8,11 +8,6 @@ import Skills from "../components/Skills";
 export default function Home() {
   return (
     <div>
-      <Head>
-        <title>Tegar | Developer</title>
-        <meta name="description" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <Main />
       <About />
       <Skills />

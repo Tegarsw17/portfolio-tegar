@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import ReactTypingEffect from "react-typing-effect";
 
 const Main = () => {
   return (
@@ -13,7 +14,30 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hello, My Name <span className="text-[#5651e5]">Tegar</span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Back-End Web developer</h1>
+          <h1 className="py-2 text-gray-700">
+            <ReactTypingEffect
+              text={["Back-End", "Full-Stack"]}
+              speed={200}
+              eraseDelay={3000}
+              // eraseSpeed={50}
+              typingDelay={1000}
+              cursorRenderer={(cursor) => <h1>{cursor}</h1>}
+              displayTextRenderer={(text, i) => {
+                return (
+                  <h1 className="text-gray-500">
+                    {/* {text.split("").map((char, i) => {
+                    const key = `${i}`;
+                    return <span>{char}</span>;
+                  })} */}
+                    {text}
+                  </h1>
+                );
+              }}
+            />
+            Web developer
+          </h1>
+
+          {/* <h1 className="text-red-500 uppercase">Testing</h1> */}
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Dolor laborum et do nostrud velit dolor id fugiat id minim
             reprehenderit.Et laboris nostrud incididunt nisi fugiat magna aliqua

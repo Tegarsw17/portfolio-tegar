@@ -39,10 +39,7 @@ const Main = () => {
 
           {/* <h1 className="text-red-500 uppercase">Testing</h1> */}
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Dolor laborum et do nostrud velit dolor id fugiat id minim
-            reprehenderit.Et laboris nostrud incididunt nisi fugiat magna aliqua
-            id id eiusmod duis in.Quis elit quis laboris nostrud elit.Sit
-            voluptate consequat ipsum anim commodo in dolore eiusmod nulla duis.
+            I'm Backend Web Developer focus on building API
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link href="https://www.linkedin.com/in/tegarsatriya03/">

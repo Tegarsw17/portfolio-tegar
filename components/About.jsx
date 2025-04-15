@@ -1,6 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
-import { aboutImg } from "../public/about.jpg";
+import Image from 'next/image';
+import Link from 'next/link';
+import { aboutImg } from '../public/about.jpg';
+import { profilePicture } from '../public/profile.png';
+import { pict } from '../public/pict.jpg';
 
 const About = () => {
   return (
@@ -13,9 +15,9 @@ const About = () => {
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">#I'm A Developer</p>
           <p className="py-2 text-gray-600">
-            Hello I'm junior developer focused on Backend web developer. I loved
-            learning about technologies and because in this field always change.
-            stack i use is javascript, php, Python.
+            Hello I'm Fullstack developer. I loved learning about technologies
+            and because in this field always change. stack i use is{' '}
+            <span className="font-bold">javascript, typescript, Python</span>.
           </p>
           <p className="py-2 text-gray-600">
             I still learning about technologies, for now i ust have personal
@@ -27,11 +29,16 @@ const About = () => {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <img
+        <div className="w-[250px] h-[350px] bg-blue-100 m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+          {/* <img className="rounded-xl" src={pict}></img> */}
+          {/* <Image className="rounded-xl" src={profilePicture} alt="/" /> */}
+          <Image
+            src="https://res.cloudinary.com/daw1nuqgv/image/upload/v1744684174/1629861345480_uqlz28.jpg"
+            alt="/"
+            width={190}
+            height={290}
             className="rounded-xl"
-            src="https://source.unsplash.com/mGFflvKuekQ"
-          ></img>
+          />
         </div>
       </div>
     </div>

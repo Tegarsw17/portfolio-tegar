@@ -1,7 +1,9 @@
-import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Link from 'next/link';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import navLogo from '../public/logo.png';
+import Image from 'next/image';
 
 const Contact = () => {
   return (
@@ -16,14 +18,15 @@ const Contact = () => {
           <div className="col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4">
             <div className="lg:p-4 h-full">
               <div>
-                <img
+                {/* <img
                   className="rounded-xl hover:scale-105 ease-in duration-300"
-                  src="https://source.unsplash.com/V5vqWC9gyEU"
-                ></img>
+                  src={navLogo}
+                ></img> */}
+                <Image src={navLogo} alt="/" width={50} height={50} />
               </div>
               <div>
                 <h2 className="py-2">Tegar Satriya Wiguna</h2>
-                <p>Back-End developer</p>
+                <p>Fullstack developer</p>
                 <p className="py-4">
                   I am available for freelance and fulltime position. contact me
                   and let's talk

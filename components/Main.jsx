@@ -1,7 +1,7 @@
-import Link from "next/link";
-import { AiOutlineMail } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
-import ReactTypingEffect from "react-typing-effect";
+import Link from 'next/link';
+import { AiOutlineMail } from 'react-icons/ai';
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa';
+import ReactTypingEffect from 'react-typing-effect';
 
 const Main = () => {
   return (
@@ -16,7 +16,7 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">
             <ReactTypingEffect
-              text={["Back-End", "Full-Stack"]}
+              text={['Back-End', 'Front-End', 'Full-Stack']}
               speed={200}
               eraseDelay={3000}
               // eraseSpeed={50}
@@ -38,8 +38,8 @@ const Main = () => {
           </h1>
 
           {/* <h1 className="text-red-500 uppercase">Testing</h1> */}
-          <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            I'm Backend Web Developer focus on building API
+          <p className="py-4 text-gray-600 max-w-[80%] m-auto">
+            I'm Fullstack Web Developer focus on building your company online
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link href="https://www.linkedin.com/in/tegarsatriya03/">
